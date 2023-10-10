@@ -1,0 +1,96 @@
+h1{
+    padding: 0px;
+    margin-top: 25px;
+    text-align: center;
+    background-color: rgb(238, 80, 6);
+    height: 100px;
+    width: 1000px;
+    border: 5px solid white;
+    font-size: 90px;
+    color: white;
+}
+#newMeal{
+    border-color: aliceblue;
+    color: blanchedalmond;
+    background-color: blue;
+    cursor: pointer;
+    height: 250px;
+    width: 200px;
+    margin-top: 150px;
+    font-size: 5em;
+}
+button:hover{
+    background-color: bisque;
+}
+button{
+    height: 50px;
+    width: 45px;
+    background-color: rgb(238, 80, 6);
+    color: white;
+}
+.h1container{
+    left:50%;
+    position: absolute;
+    -ms-transform: translate(-50%,0%);
+    transform: translate(-50%,0%);
+} 
+html{
+    background-color: black;
+}
+table{
+    margin-top: 30%;
+    display: inline-block;
+    color: white;
+}
+.tableContainer{
+    text-align: center;
+}
+.reset{
+    width: 200px;
+}
+.centered-table {
+    left: 70%;
+    top: 200px;
+    position: absolute;
+    -ms-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+    display: inline-block;
+    margin: 0 auto;
+    border: 1px solid black; 
+}
+.spec{
+    width: 400px;
+}
+.hori-table{
+    left: 50%;
+    top: 500px;
+    position: absolute;
+    -ms-transform: translate(-50%,-500px);
+    transform: translate(-50%,-500px);
+    display: flex;
+    justify-self: center;
+} 
+th{
+    background-color: rgb(238, 80, 6);
+    color: white;
+    height: 100px;
+    width: 100px;
+    font-size: 2.5em;
+}
+td{
+    width:100px;
+    font-size: 2em;
+}
+.info{
+    background-color: white;
+    color: black;
+    border-left-color: white;
+    margin-right: 0%;
+    border-right: 0%;
+}
+span{
+    text-align: center;
+}
+#mainMeal{
+    top: 30%;
+}

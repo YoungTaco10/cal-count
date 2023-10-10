@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calorie Counter</title>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="h1container"><h1>CALORIE COUNTER</h1></div>
+    <div class="newmealcontainer"><button id="newMeal">New Meal</button></div>
+    
+        <table class="centered-table" id="mainMeal">
+            <tr>
+                <th class="spec">Meal Name</th>
+                <th class="spec">Total Calories</th>
+            </tr>
+            <tr>
+                <td class="info">n/a</td>
+                <td class="info"> <span id="tc">0</span> cal</td>
+            </tr>
+        </table>
+        <div class="hori-table">
+        <table id="Appetizer">
+            <tr>
+                <td></td>
+                <th>APPETIZER</th>
+            </tr>
+            <tr>
+                <th>Dish Name</th>
+                <td class="info">n/a</td>
+            </tr>
+            <tr>
+                <th>Protein</th>
+                <td class="info"> <span id="apg">0</span> g</td>
+                <td class="info"> <span id="apc">0</span> cal</td>
+            </tr>
+            <tr class="buttonRow">
+                <td></td>
+                <td><button id="ap--">--</button><button id="ap-">-</button><button id="ap+">+</button><button id="ap++">++</button></td>
+                <td></td>
+            </tr>
+            <tr>
+                <th>Carbohydrates</th>
+                <td class="info"> <span id="acg">0</span> g</td>
+                <td class="info"> <span id="acc">0</span> cal</td>
+            </tr>
+            <tr class="buttonRow">
+                <td></td>
+                <td><button id="ac--">--</button><button id="ac-">-</button><button id="ac+">+</button><button id="ac++">++</button></td>
+                <td></td>
+            </tr>
+            <tr>
+                <th>Fat</th>
+                <td class="info"> <span id="afg">0</span> g</td>
+                <td class="info"> <span id="afc">0</span> cal</td>
+            </tr>
+            <tr class="buttonRow">
+                <td></td>
+                <td><button id="af--">--</button><button id="af-">-</button><button id="af+">+</button><button id="af++">++</button></td>
+                <td></td>
+            </tr>
+            <tr>
+                <th>Appetizer Calories</th>
+                <td></td>
+                <td class="info"> <span id="atc">0</span> cal</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><button id="ar" class="reset">RESET</button></td>
+            </tr>
+        </table>
+        <table id="Entree">
+            <tr>
+                <td></td>
+                <th>ENTREE</th>
+            </tr>
+            <tr>
+                <th>Dish Name</th>
+                <td class="info">n/a</td>
+            </tr>
+            <tr>
+                <th>Protein</th>
+                <td class="info"> <span id="epg">0</span> g</td>
+                <td class="info"> <span id="epc">0</span> cal</td>
+            </tr>
+            <tr class="buttonRow">
+                <td></td>
+                <td><button id="ep--">--</button><button id="ep-">-</button><button id="ep+">+</button><button id="ep++">++</button></td>
+                <td></td>
+            </tr>
+            <tr>
+                <th>Carbohydrates</th>
+                <td class="info"> <span id="ecg">0</span> g</td>
+                <td class="info"> <span id="ecc">0</span> cal</td>
+            </tr>
+            <tr class="buttonRow">
+                <td></td>
+                <td><button id="ec--">--</button><button id="ec-">-</button><button id="ec+">+</button><button id="ec++">++</button></td>
+                <td></td>
+            </tr>
+            <tr>
+                <th>Fat</th>
+                <td class="info"> <span id="efg">0</span> g</td>
+                <td class="info"> <span id="efc">0</span> cal</td>
+            </tr>
+            <tr class="buttonRow">
+                <td></td>
+                <td><button id="ef--">--</button><button id="ef-">-</button><button id="ef+">+</button><button id="ef++">++</button></td>
+                <td></td>
+            </tr>
+            <tr>
+                <th>Entree Calories</th>
+                <td></td>
+                <td class="info"> <span id="etc">0</span> cal</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><button id="er" class="reset">RESET</button></td>
+            </tr>
+        </table>
+        <table id="Dessert">
+            <tr>
+                <td></td>
+                <th>DESSERT</th>
+            </tr>
+            <tr>
+                <th>Dish Name</th>
+                <td class="info">n/a</td>
+            </tr>
+            <tr>
+                <th>Protein</th>
+                <td class="info"> <span id="dpg">0</span> g</td>
+                <td class="info"> <span id="dpc">0</span> cal</td>
+            </tr>
+            <tr class="buttonRow">
+                <td></td>
+                <td><button id="dp--">--</button><button id="dp-">-</button><button id="dp+">+</button><button id="dp++">++</button></td>
+                <td></td>
+            </tr>
+            <tr>
+                <th>Carbohydrates</th>
+                <td class="info"> <span id="dcg">0</span> g</td>
+                <td class="info"> <span id="dcc">0</span> cal</td>
+            </tr>
+            <tr class="buttonRow">
+                <td></td>
+                <td><button id="dc--">--</button><button id="dc-">-</button><button id="dc+">+</button><button id="dc++">++</button></td>
+                <td></td>
+            </tr>
+            <tr>
+                <th>Fat</th>
+                <td class="info"> <span id="dfg">0</span> g</td>
+                <td class="info"> <span id="dfc">0</span> cal</td>
+            </tr>
+            <tr class="buttonRow">
+                <td></td>
+                <td><button id="df--">--</button><button id="df-">-</button><button id="df+">+</button><button id="df++">++</button></td>
+                <td></td>
+            </tr>
+            <tr>
+                <th>Dessert Calories</th>
+                <td></td>
+                <td class="info"> <span id="dtc">0</span> cal</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><button id="dr" class="reset">RESET</button></td>
+            </tr>
+
+        </table>
+    </div>
+    <!---<table id="oldMeals">
+        <tr>
+            <th>Name</th>
+            <th>Calories</th>
+        </tr>
+    </table> -->
+</body>
+</html>
